@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    max-width: 100vw;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2vh;
+    width: 100vw;
+    font-size: 2em;
+    position: fixed;
+    z-index: 999;
+}
+
+.line {
+    height: 2px;
+    width: 100vw;
+    background-color: orange;
+    position: absolute;
+    top: 2.2vh;
+    position: fixed;
+    z-index: 999;
+}
+
+nav {
+    width: 100vw;
+    height: 8vh;
+    background-color: white;
+    position: fixed;
+    z-index: 998;
+
+}
+
+nav ul {
+    display: none;
+}
+
+nav img {
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    top: 3vh;
+}
+
+.menu {
+    display: block;
+    background-color: transparent;
+    color: orange;
+    border: none;
+    font-size: 4vh;
+    position: absolute;
+    top: 2vh;
+    right: 4vw;
+}
+
+.line-2 {
+    background-color: orange;
+    width: 100vw;
+    height: 10px;
+    position: absolute;
+    top: 8vh;
+    position: fixed;
+    z-index: 997;
+}
+
+.background {
+    height: 8.6vh;
+}
+.details h1{
+    font-size: 3em;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+}
+.details img{
+    margin: 4vh 0 3vh;
+}
+.details h2{
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 50px;
+}
+.details .cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details .button{
+    background-color: orange;
+    color: white;
+    margin-top: px;
+    border-radius: 20px;
+    padding: 30px 50px 30px;
+    font-size: 4em;
+    text-decoration: none;
+}
+.details h6{
+    font-size: 2em;
+    margin-top: 50px;
+}
+.details h3{
+    font-size: 3em;
+    margin: 0 0 1vh;
+}
+.details p{
+    font-size: 2.5em;
+    text-align: center;
+}
+footer {
+    background-color: orange;
+    height: 22vh;
+    width: 100vw;
+}
+footer p {
+    font-size: 1.5em;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+footer .kontakt ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+footer .kontakt ul img{
+    width: 4vw;
+    margin-top: 1vh;
+}
+footer .kontakt li{
+    font-size: 2em;
+    margin: 0 0 1vh;
+}
+footer .kontakt a{
+    color: white;
+    text-decoration: none;
+}
+footer .kontakt a:hover{
+    text-decoration: underline;
+}
+footer .kontakt h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}

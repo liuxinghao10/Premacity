@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    margin: 0;
+    max-width: 100vw;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2vh;
+    width: 100vw;
+    font-size: 2em;
+    position: fixed;
+    z-index: 999;
+}
+
+.line {
+    height: 2px;
+    width: 100vw;
+    background-color: orange;
+    position: absolute;
+    top: 2.2vh;
+    position: fixed;
+    z-index: 999;
+}
+
+nav {
+    width: 100vw;
+    height: 8vh;
+    background-color: white;
+    position: fixed;
+    z-index: 998;
+
+}
+
+nav ul {
+    display: none;
+}
+
+nav img {
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    top: 3vh;
+}
+
+.menu {
+    display: block;
+    background-color: transparent;
+    color: orange;
+    border: none;
+    font-size: 4vh;
+    position: absolute;
+    top: 2vh;
+    right: 4vw;
+}
+
+.line-2 {
+    background-color: orange;
+    width: 100vw;
+    height: 10px;
+    position: absolute;
+    top: 8vh;
+    position: fixed;
+    z-index: 997;
+}
+
+.background {
+    height: 8vh;
+}
+
+.home {
+    padding: 0;
+    margin: 0;
+    background-color: orange;
+    width: 100vw;
+    color: white;
+}
+
+.home h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+    text-align: center;
+}
+
+.home p {
+    font-size: 3em;
+    text-align: center;
+}
+
+.home ul {
+    display: flex;
+    justify-content: center;
+}
+
+.home li {
+    font-size: 1.4em;
+    display: inline;
+    margin: 3vh 10vw 3vh;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px white solid;
+}
+
+.home a {
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.home a:hover {
+    text-decoration: underline;
+}
+
+.home .viber img {
+    background-color: transparent;
+    height: 2vh;
+}
+
+.O-nama {
+    width: 100vw;
+    background-color: orange;
+}
+
+.O-nama .adresa {
+    color: orange;
+    position: absolute;
+    top: 55vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    white-space: nowrap;
+}
+
+.O-nama .adresa h1 {
+    font-size: 4em;
+    margin: 4vh;
+}
+
+.O-nama .adresa a {
+    font-size: 2em;
+    text-decoration: none;
+    border: 5px orange solid;
+    border-radius: 20px;
+    padding: 40px;
+    color: orange;
+}
+
+.O-nama .adresa a:hover {
+    text-decoration: underline;
+}
+
+.O-nama .adresa img {
+    height: 3vh;
+    width: auto;
+}
+
+.O-nama img {
+    width: 100vw;
+    filter: brightness(70%);
+    margin: 0;
+    padding: 0;
+}
+
+.Proizvodi {
+    background-color: orange;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 5em;
+}
+
+.product a {
+    text-decoration: none;
+    color: orange;
+}
+.product .opis {
+    color: black;
+}
+
+.product .product-1 h1 {
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product .product-1 p {
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.product .product-2 h1 {
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product .product-2 p {
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.product .product-3 h1 {
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product .product-3 p {
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    background-color: orange;
+    height: 22vh;
+    width: 100vw;
+}
+footer p {
+    font-size: 1.5em;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+footer .kontakt ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+footer .kontakt ul img{
+    width: 4vw;
+    margin-top: 1vh;
+}
+footer .kontakt li{
+    font-size: 2em;
+    margin: 0 0 1vh;
+}
+footer .kontakt a{
+    color: white;
+    text-decoration: none;
+}
+footer .kontakt a:hover{
+    text-decoration: underline;
+}
+footer .kontakt h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+@media (min-width: 1367px) {
+    /*电脑桌面*/
+
+}
